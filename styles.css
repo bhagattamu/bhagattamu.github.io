@@ -118,6 +118,7 @@ header img {
   }
   .head-img {
     text-align: center;
+    margin-top: 50px !important;
   }
   .head-img img {
     height: 125px;
@@ -125,10 +126,18 @@ header img {
   .about {
     text-align: center;
   }
+  .skills {
+    width: 100% !important;
+  }
+  .works {
+    width: 100% !important;
+  }
   .skill-image {
+    /* width: 0%; */
     display: none;
   }
   .work-img {
+    /* width: 0%; */
     display: none;
   }
 }
@@ -189,6 +198,13 @@ h1 {
 /* skill in 2 form*/
 .skills {
   border-bottom: 1px solid white;
+  width: 50%;
+}
+.skill-image {
+  width: 50%;
+}
+.work-img {
+  width: 50%;
 }
 .skill-container {
   display: flex;
@@ -227,6 +243,7 @@ h1 {
 
 .works {
   border-bottom: 1px solid white;
+  width: 50%;
   /* width: 50%;
   margin: 60px;
   margin-bottom: 0px;
@@ -341,4 +358,9 @@ footer {
 
 .tabpill a {
   color: white;
+}
+
+.skill-image img,
+.work-img img {
+  width: 100%;
 }
