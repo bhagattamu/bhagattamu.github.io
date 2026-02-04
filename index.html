@@ -161,5 +161,14 @@
         }
       }
     </style>
+    <script>
+      const today = new Date();
+      const targetDate = new Date("2026-02-05");
+      if (today.toDateString() !== targetDate.toDateString()) {
+        document.title = "Under Construction";
+        document.body.innerHTML =
+          '<div style="text-align:center; padding:50px; font-family: Arial, sans-serif;"><h1>Under Construction</h1><p>This site is under construction. Please check back later.</p></div>';
+      }
+    </script>
   </body>
 </html>
